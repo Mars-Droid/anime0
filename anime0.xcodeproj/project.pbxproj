@@ -13,6 +13,8 @@
 		CEC7CDB4256FA0440015FE70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC7CDB2256FA0440015FE70 /* Main.storyboard */; };
 		CEC7CDB6256FA0480015FE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC7CDB5256FA0480015FE70 /* Assets.xcassets */; };
 		CEC7CDB9256FA0480015FE70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC7CDB7256FA0480015FE70 /* LaunchScreen.storyboard */; };
+		CEC7CDC2256FA4AE0015FE70 /* SignlnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC7CDC1256FA4AE0015FE70 /* SignlnViewController.swift */; };
+		CEC7CDC5256FB3940015FE70 /* CandyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC7CDC4256FB3940015FE70 /* CandyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CEC7CDB5256FA0480015FE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC7CDB8256FA0480015FE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC7CDBA256FA0480015FE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC7CDC1256FA4AE0015FE70 /* SignlnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignlnViewController.swift; sourceTree = "<group>"; };
+		CEC7CDC4256FB3940015FE70 /* CandyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CEC7CDAE256FA0440015FE70 /* SceneDelegate.swift */,
 				CEC7CDB0256FA0440015FE70 /* ViewController.swift */,
 				CEC7CDB2256FA0440015FE70 /* Main.storyboard */,
+				CEC7CDC4256FB3940015FE70 /* CandyViewController.swift */,
+				CEC7CDC1256FA4AE0015FE70 /* SignlnViewController.swift */,
 				CEC7CDB5256FA0480015FE70 /* Assets.xcassets */,
 				CEC7CDB7256FA0480015FE70 /* LaunchScreen.storyboard */,
 				CEC7CDBA256FA0480015FE70 /* Info.plist */,
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC7CDC5256FB3940015FE70 /* CandyViewController.swift in Sources */,
 				CEC7CDB1256FA0440015FE70 /* ViewController.swift in Sources */,
 				CEC7CDAD256FA0440015FE70 /* AppDelegate.swift in Sources */,
 				CEC7CDAF256FA0440015FE70 /* SceneDelegate.swift in Sources */,
+				CEC7CDC2256FA4AE0015FE70 /* SignlnViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
